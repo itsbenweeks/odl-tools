@@ -14,10 +14,9 @@ import csv
 
 def print_help():
     print('''usage: edx_id_vid -h
-      edx_id_vid -a csv_filename xml_filename
-      edx_id_vid -d xml_filename
-      edx_id_vid -r xml_filename attribute''')
-
+      olx-tools -a csv_filename xml_filename
+      olx-tools -d xml_filename
+      olx-tools -r xml_filename attribute''')
 
 
 def load_csv(csv_fn):
